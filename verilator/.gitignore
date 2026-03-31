@@ -1,0 +1,7 @@
+TestHarness/
+verilator/
+emulator_verilator*
+!emulator_verilator.cc
+TestHarness.v
+verilogs/
+*.tar.gz

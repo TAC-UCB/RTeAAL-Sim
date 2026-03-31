@@ -1,0 +1,40 @@
+# sbt related
+target/
+project/project/
+project/target/
+
+# dev related
+test_fir/
+
+# release related
+utils/bin/essent.jar
+
+# IDE related
+.idea/*
+
+# Compiled library
+*.a
+*.out
+*.o
+*.S
+
+*.log
+
+kernel/bin
+kernel/build
+kernel/json
+kernel/logs
+kernel/txt
+kernel/yaml
+
+kernel/kernel_SU_*.cc
+kernel/kernel_TI_*.cc
+
+kernel/tensor_*
+
+# scala generated files
+TestHarness*.h
+utils/bin/input_bw.txt
+utils/bin/input_m.txt
+utils/bin/split_signal_mapping_memory.json
+utils/bin/split_signals_memory.json

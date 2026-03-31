@@ -1,0 +1,4 @@
+emulator_essent*
+!emulator_essent.cc
+firrtls/
+*.tar.gz
